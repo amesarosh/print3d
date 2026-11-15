@@ -1,0 +1,16 @@
+[project]
+name = "print3d"
+version = "0.2.0"
+description = "Export, check, preview and slice build123d parts for a Bambu Lab A1"
+requires-python = ">=3.12"
+dependencies = [
+    "build123d>=0.13.0",
+    "manifold3d>=3.5.4",
+    "networkx>=3.4",
+    "numpy>=2.5",
+    "opencv-python-headless>=5.0.0.93",
+    "pillow>=13.0",
+    "pyvista>=0.49.1",
+    "scipy>=1.18",
+    "trimesh>=5.1.1",
+]
